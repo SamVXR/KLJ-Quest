@@ -1,11 +1,16 @@
 body {
   background-color: white;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
   color: black;
+  background-color: #5b2d2d;
   text-align: center;
   font-size: 64px;
+  margin: 0px;
+  padding: 0;
 }
 
 
@@ -28,11 +33,13 @@ div {
     text-align: center;
 }
 
-.title{
-    align-self: right;
+.logo-text{
+    color: white;
+    padding-bottom: 10px;
 }
 
 .logo{
+    margin-top: 5%;
     width: 100px;
     height: 100px;
 }
