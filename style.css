@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: 64px;
+}
+
+
+div {
+    font-size: 40px;
+}
+
+.quest{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.sent-to{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
