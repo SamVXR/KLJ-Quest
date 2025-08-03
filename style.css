@@ -21,8 +21,18 @@ div {
 
 .sent-to{
     text-align: center;
+    word-wrap: break-word;
 }
 
 .center{
     text-align: center;
+}
+
+.title{
+    align-self: right;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
 }
