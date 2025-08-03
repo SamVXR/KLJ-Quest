@@ -18,25 +18,12 @@ div {
     font-size: 40px;
 }
 
-.general-text{
-    padding-left: 10px;
-    padding-right: 10px;    
-}
+/*----------- logo --------------*/
 
-.quest{
-    margin-top: 10%;
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.sent-to{
-    text-align: center;
-    word-wrap: break-word;
-    
-}
-
-.center{
-    text-align: center;
+.logo{
+    margin-top: 5%;
+    width: 100px;
+    height: 100px;
 }
 
 .logo-text{
@@ -44,10 +31,28 @@ div {
     padding-bottom: 10px;
 }
 
-.logo{
-    margin-top: 5%;
-    width: 100px;
-    height: 100px;
+
+/*----------- Main text --------------*/
+.general-text{
+    padding-left: 10px;
+    padding-right: 10px;    
+}
+
+.quest-title{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.quest-info{
+    padding-top: 20px;
+    font-size: 32px;
+}
+
+.sent-to{
+    text-align: center;
+    word-wrap: break-word;
+    
 }
 
 .email-text{
