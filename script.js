@@ -24,10 +24,12 @@ function loadInfo(data){
     const infoUl = document.querySelector("#info");
     var count = 1;
     for (const player of json){
-
-        infoUl.innerHTML += `<div>${count} | ${player.name} -- Punten: ${player.score} <div>`;
-        count++;
-    }
+        if (player.score != 0){
+            infoUl.innerHTML += `<div>${count} | ${player.name} -- Punten: ${player.score} <div>`;
+            count++;
+        }
+        }
+        
 }
 
 
