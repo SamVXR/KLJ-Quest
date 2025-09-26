@@ -58,3 +58,22 @@ div {
 .email-text{
     font-size: 32px;
 }
+
+.button-text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);;
+}
+
+.container {
+  height: 100px;
+  position: relative;
+}
+
+.button1{
+    padding: 15px 32px;
+    background-color: transparent;
+}

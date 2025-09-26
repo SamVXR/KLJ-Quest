@@ -14,11 +14,17 @@ function fetchJson(){
 
 function loadInfo(data){
     json = data
+    
+
+
+
     showInfo()
 }
 
 function showInfo(){
     console.log(json.players)
+
+    
 }
 
 
