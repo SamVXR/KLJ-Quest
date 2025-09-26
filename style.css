@@ -77,3 +77,8 @@ div {
     padding: 15px 32px;
     background-color: transparent;
 }
+
+.leaderboard-text{
+    text-align: left;
+    margin-left: 35%;
+}

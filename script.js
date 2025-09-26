@@ -13,20 +13,22 @@ function fetchJson(){
 }
 
 function loadInfo(data){
-    json = data
-    
+    json = data.players;
 
+    json = json.sort((a,b) => {
+        if(a.score > b.score){
+            return -1;
+        }
+    });
 
+    const infoUl = document.querySelector("#info");
+    var count = 1;
+    for (const player of json){
 
-    showInfo()
+        infoUl.innerHTML += `<div>${count} | ${player.name} -- Punten: ${player.score} <div>`;
+        count++;
+    }
 }
-
-function showInfo(){
-    console.log(json.players)
-
-    
-}
-
 
 
 
